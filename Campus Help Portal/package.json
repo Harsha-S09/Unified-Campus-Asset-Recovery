@@ -1,0 +1,18 @@
+{
+  "name": "campus-help-portal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "npm --prefix backend run dev",
+    "client": "npm --prefix frontend run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
